@@ -9,7 +9,9 @@
 
 /*screens*/
 @import "screen/login.css";
+@import "screen/friends.css";
 
 body {
+  color: #2e369e;
   font-family: "Noto Sans", sans-serif;
 }

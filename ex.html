@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" /></head
+  >​
+
+  <body>
+    <div class="wrapper">
+      <h1 class="blind">양승규 님의 코코아톡</h1>
+
+      <!-- h1은 해당 프로젝트, 사이트의 정체성을 뜻합니다 페이지마다의 제목을 h1으로 주지 마시고 
+        해당 프로젝트인 '코코아톡'을 h1으로 써 주세요. 
+        대신 눈에 보이면 안 되니 blind라는 클래스를 주어 요소를 숨겨버립시다 (css 주석 참조)-->
+
+      <header class="header">
+        <div class="status-bar">
+          <div class="status-menu">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+          </div>
+
+          <div class="status-menu time">
+            <span>16:16</span>
+          </div>
+
+          <div class="status-menu">
+            <span>110%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+          </div>
+        </div>
+        ​
+        <div class="screen-header">
+          <h2 class="screen-title">Friends</h2>
+          <nav class="header-icons">
+            <ul class="icons-list">
+              <li class="icons-item">
+                <a href="">
+                  <span class="blind">검색하기</span>
+                  <i class="fas fa-search fa-lg"></i>
+                </a>
+              </li>
+
+              <li class="icons-item">
+                <a href="">
+                  <span class="blind">노래추천</span>
+
+                  <i class="fas fa-music fa-lg"></i>
+                </a>
+              </li>
+
+              <li class="icons-item">
+                <a href="">
+                  <span class="blind">설정</span>
+
+                  <i class="fas fa-cog fa-lg"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- 마찬가지로 아이콘만 있는 건 시각장애인들이 웹을 편하게 구경하지 못합니다 스크린리더기가 읽어줄수있도록 각각 아이콘들에게 제목을 달아주세요. 
+            클래스는 blind라고 하면 시각적으로는 보이지 않습니다 -->
+        </div>
+      </header>
+
+      ​
+
+      <div class="content">
+        <section class="sc-friend-info">
+          <i class="fas fa-info-circle"></i>
+
+          <span>Friends' Name Display</span>
+        </section>
+      </div>
+
+      ​
+
+      <!-- 페이지마다 다르게 들어가는 콘텐츠들은 content라는 클래스에 div에 넣어 줍니다 
+
+    그리고는 css로 가서 content에게 padding-top을 주시면 그만큼의 여백이 생깁니다! -->
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  ​
+</html>
