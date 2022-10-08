@@ -6,6 +6,8 @@
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  top: 0;
+  left: 0;
 }
 
 .screen-header__title {
