@@ -18,6 +18,8 @@
 
 .friends-screen {
   padding: 0px var(--horizontal-space);
+  display: flex;
+  justify-content: space-between;
 }
 
 .friends-screen__channel {
