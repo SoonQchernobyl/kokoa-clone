@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  width: 410px;
+  height: 883px;
+  padding: 60px 25px 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 5px solid #00c6ad;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+}
+
+.title i,
+.title span {
+  width: 33%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.title span {
+  display: flex;
+  justify-content: center;
+}
+
+.now {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.now i {
+  font-size: 70px;
+}
+
+.now__picture {
+  width: 130px;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #f7b713;
+}
+
+.now__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.now__info span:nth-child(-n + 2) {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.now__info span:nth-child(3) {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.btns__btn {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  border-bottom-width: 5px;
+}
+
+.btns__btn:first-child {
+  width: 50%;
+
+  border-radius: 15px;
+}
+
+.btns i {
+  position: absolute;
+  font-size: 25px;
+}
+
+.btns__btn:first-child i {
+  left: 30px;
+  top: 17px;
+}
+
+.btns__btn:first-child span {
+  font-size: 20px;
+}
+.othernews {
+  display: flex;
+  align-items: center;
+}
+
+.othernews span {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.othernews__picture {
+  height: 60px;
+  width: 60px;
+  border: 2px solid black;
+
+  border-radius: 15px;
+  margin-right: 15px;
+}
+
+.below {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.othernews:nth-child(4) > .othernews__picture {
+  background-color: brown;
+}
+
+.othernews:nth-child(5) > .othernews__picture {
+  background-color: darkblue;
+}
+
+.othernews:nth-child(6) > .othernews__picture {
+  background-color: greenyellow;
+}
+
+.othernews:nth-child(7) > .othernews__picture {
+  background-color: purple;
+}

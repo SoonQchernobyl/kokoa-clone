@@ -10,6 +10,7 @@
 .whelcome-header__title {
   margin-bottom: 20px;
   font-size: 25px;
+  color:  #700821;
 }
 
 .whelcome-header__text {
@@ -36,7 +37,7 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: var(--yellow);
+  background-color: #700821;
   cursor: pointer;
   padding: 20px 0px;
   border-radius: 5px;
@@ -47,11 +48,17 @@
 }
 
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: #700821);
 }
 #login-form a {
   text-align: center;
   text-decoration: none;
   color: inherit;
   font-size: 20px;
+}
+
+#hitman{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
 }
